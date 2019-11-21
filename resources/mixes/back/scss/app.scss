@@ -1,0 +1,48 @@
+.side-body {
+  .edit-add {
+    .form-edit-add {
+
+      .save.fixed-save {
+        position: fixed;
+        top: 0.85rem;
+        z-index: 900;
+        right: 15rem;
+      }
+
+
+      .panel {
+        .panel-body {
+          .form-group {
+            background-color: #ececec;
+            padding: 01rem;
+            border: 1rem solid white;
+
+            .control-label {
+              font-weight: bold;
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
+
+.side-body {
+  .edit-add {
+    .form-edit-add {
+      .panel {
+        .panel-body {
+          .form-group {
+
+            input,
+            textarea {
+              text-align: right;
+              direction: rtl;
+            }
+          }
+        }
+      }
+    }
+  }
+}

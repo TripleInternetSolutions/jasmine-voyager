@@ -1,0 +1,18 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Slick
+@import "~slick-carousel/slick/slick.css";
+
+
+@import "defaults";
+
+// Partials
+@import "partials/nav-bar";
+@import "partials/footer";
+
+// Pages
+@import "pages/home";

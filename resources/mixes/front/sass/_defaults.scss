@@ -1,0 +1,29 @@
+*:focus {
+  outline: 1px solid red;
+}
+
+img {
+  max-width: 100%;
+}
+
+*:not(.cms) {
+  a {
+    color: inherit;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+html[dir='rtl'] {
+  body {
+    text-align: right;
+  }
+
+  .dropdown-menu {
+    text-align: right;
+    left: unset;
+    right: 0;
+  }
+}
