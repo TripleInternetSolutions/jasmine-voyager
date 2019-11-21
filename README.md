@@ -1,7 +1,7 @@
 # Jasmine Voyager
 
 # install
-* `composer create-project TIS/jasmine-voyagr`
+* `composer create-project TIS/jasmine-voyagr myProject`
 * Setup database and APP_URL in `.env`
 * `php artisan migrate`
 * `php artisan db:seed --class=VoyagerDatabaseSeeder`
