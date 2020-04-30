@@ -12,7 +12,7 @@
     "devDependencies": {
         "bootstrap": "^4.3.1",
         "cross-env": "^5.1",
-        "jquery": "^3.4.1",
+        "jquery": "^3.5.0",
         "laravel-mix": "^4.0.7",
         "laravel-mix-copy-watched": "^2.2",
         "popper.js": "^1.16.0",
